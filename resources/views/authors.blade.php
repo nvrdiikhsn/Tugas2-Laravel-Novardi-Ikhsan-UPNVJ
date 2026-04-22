@@ -15,6 +15,7 @@
     <ul>
         <li>{{ $author['id'] }}</li>
         <li>{{ $author['name'] }}</li>
+        <li>{{ $author['bio'] }}</li>
     </ul>
     @endforeach
 

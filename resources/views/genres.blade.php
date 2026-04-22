@@ -13,6 +13,7 @@
     <ul>
         <li>{{ $genre['id'] }}</li>
         <li>{{ $genre['name'] }}</li>
+        <li>{{ $genre['description'] }}</li>
     </ul>
     @endforeach
 </body>

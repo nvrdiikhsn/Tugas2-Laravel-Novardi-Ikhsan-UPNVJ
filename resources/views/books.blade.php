@@ -13,7 +13,6 @@
     @foreach ($books as $book)
     <ul>
         <li>{{ $book['title'] }}</li>
-        <li>{{ $book['title'] }}</li>
         <li>{{ $book['description'] }}</li>
         <li>Rp {{ number_format($book['price'], 0, ',', '.') }}</li>
         <li>Stok: {{ $book['stock'] }}</li>
